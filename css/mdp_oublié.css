@@ -1,0 +1,82 @@
+:root {
+    --fontMix: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --fontMono: monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+body {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body #siteWeb {
+    height: fit-content;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header span {
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#siteWeb main {
+    flex-grow: 1;
+    width: 100%;
+    border: 1px solid rgb(27, 115, 137);
+    border-radius: 10px;
+    padding: 15px 20px 10px 20px;
+}
+
+main p {
+    font-style: italic;
+    text-align: center;
+}
+
+form div:last-child{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group span {
+    width: 190px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+button.btn.btn-outline-primary {
+    width: 100%;
+    margin-bottom: 3px;
+} 
+
+.input-group {
+    margin-bottom: 4px;
+}

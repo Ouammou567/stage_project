@@ -1,0 +1,115 @@
+:root {
+    --fontMix: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans'
+    , 'Helvetica Neue', sans-serif;
+    --fontMono: monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+body {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body #siteWeb {
+    height: fit-content;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#siteWeb header {
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(27, 115, 137);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+header span {
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#siteWeb main {
+    flex-grow: 1;
+    width: 100%;
+    border: 1px solid rgb(27, 115, 137);
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+}
+
+main p {
+    font-style: italic;
+}
+
+div label, div input {
+    width: 100%;
+}
+
+.Texts {
+    text-transform: capitalize;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+.mdpOublie, .creerCompte {
+    display: grid;
+    grid-template-rows: 94% 4%;
+    gap: 2%;
+}
+
+.underlineStyles {
+    background: rgb(27, 115, 137);
+    width: 00%;
+    height: 2px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+main p {
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: -2px;
+    text-align: center;
+    
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 30px;
+}
+

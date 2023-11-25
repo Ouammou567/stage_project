@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: monospace;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+body #siteWeb {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    justify-content: center;
+    
+}
+
+#siteWeb p {
+    height: fit-content;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+#siteWeb main {
+    width: 100%;
+    padding: 7px 0 7px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: fit-content;
+    
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buttons button {
+    padding: 6 px;
+}
+
+input {
+    caret-color: rgb(17, 129, 129);
+}
+
+::placeholder {
+    font-weight: bold;
+    
+}
+
+body #siteWeb {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
